@@ -1,5 +1,5 @@
 const express = require('express');
-var md5 = require("md5");
+//var md5 = require("md5");
 const app = express();
 
 app.get('/', (req, res) => {
