@@ -1,3 +1,6 @@
+const bodyParser = require('body-parser');
+var cors = require('cors');
+const dotenv = require('dotenv');
 const express = require('express');
 var md5 = require("md5");
 const app = express();
